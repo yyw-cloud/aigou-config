@@ -6,8 +6,8 @@ spring:
 ---
 spring:
   profiles: dev
-    application:
-      name: AIGOU_PLAT_DEV
+  application:
+    name: AIGOU_PLAT_DEV
 eureka:
   client:
     serviceUrl:
@@ -20,8 +20,8 @@ server:
 ---
 spring:
   profiles: test
-    application:
-      name: AIGOU_PLAT_TEST
+  application:
+    name: AIGOU_PLAT_TEST
 eureka:
   client:
     serviceUrl:
@@ -30,4 +30,3 @@ eureka:
     prefer-ip-address: true
 server:
   port: 6699
-
